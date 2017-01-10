@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AJLabelAppearance_Example' do
+  pod 'AJLabelAppearance', :path => '../'
+
+  target 'AJLabelAppearance_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
