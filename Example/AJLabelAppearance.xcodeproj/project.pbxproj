@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		24FCB0CF0DC8B9A6A76192C9 /* Pods_AJLabelAppearance_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E958728737FC88BB69D15A5 /* Pods_AJLabelAppearance_Tests.framework */; };
 		383E10A91E2526A4002113E2 /* AJLabelAppearance.png in Resources */ = {isa = PBXBuildFile; fileRef = 383E10A81E2526A4002113E2 /* AJLabelAppearance.png */; };
+		383E10AB1E255ACB002113E2 /* PodRelease.md in Sources */ = {isa = PBXBuildFile; fileRef = 383E10AA1E255ACB002113E2 /* PodRelease.md */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,6 +41,7 @@
 		1A513556E74B7704DE4B6F86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1E958728737FC88BB69D15A5 /* Pods_AJLabelAppearance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJLabelAppearance_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		383E10A81E2526A4002113E2 /* AJLabelAppearance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AJLabelAppearance.png; sourceTree = "<group>"; };
+		383E10AA1E255ACB002113E2 /* PodRelease.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = PodRelease.md; sourceTree = "<group>"; };
 		460B267884E06FA2E22D9A13 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AJLabelAppearance_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJLabelAppearance_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -152,6 +154,7 @@
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* AJLabelAppearance-Prefix.pch */,
 				383E10A81E2526A4002113E2 /* AJLabelAppearance.png */,
+				383E10AA1E255ACB002113E2 /* PodRelease.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -394,6 +397,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383E10AB1E255ACB002113E2 /* PodRelease.md in Sources */,
 				6003F59E195388D20070C39A /* AJAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* AJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
