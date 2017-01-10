@@ -1,0 +1,6 @@
+framework module AJLabelAppearance {
+  umbrella header "AJLabelAppearance-umbrella.h"
+
+  export *
+  module * { export * }
+}

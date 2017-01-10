@@ -5,7 +5,6 @@ target 'AJLabelAppearance_Example' do
 
   target 'AJLabelAppearance_Tests' do
     inherit! :search_paths
-
-    
+    pod 'AJLabelAppearance', :path => '../'
   end
 end

@@ -1,0 +1,27 @@
+{
+  "name": "AJLabelAppearance",
+  "version": "0.1.0",
+  "summary": "Use Label Appearance to setup Label appearance easily.",
+  "description": "Simple as setup UILabel title text, this helps user easy setup background color, gradient, shadow and border for different control state",
+  "homepage": "https://github.com/ajabble/LabelAppearance",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ajabble": "ashish.jabble@nerdapplabs.com"
+  },
+  "source": {
+    "git": "https://github.com/ajabble/LabelAppearance.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AJLabelAppearance/Classes/**/*",
+  "resource_bundles": {
+    "AJLabelAppearance": [
+      "AJLabelAppearance/Assets/*.png"
+    ]
+  }
+}

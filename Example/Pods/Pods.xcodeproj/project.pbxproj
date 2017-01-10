@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EEBDF3A4351F62697D9928180DDB7C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		386AA764552D012DDB9CFEA9E0AEAF05 /* Pods-AJLabelAppearance_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F681EDADF1176A748493A425760AFCA /* Pods-AJLabelAppearance_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		513E0516980566577B8B6FD536A72095 /* AJLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = C71F988BEB75EF0CE6D005440C5265CD /* AJLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80C78E27AD476F5DB4FC48C7054F057A /* Pods-AJLabelAppearance_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECFE42DC1EF6208DDE29678F275176D /* Pods-AJLabelAppearance_Example-dummy.m */; };
+		8F213A377F98257E3392C37706A47ED6 /* Pods-AJLabelAppearance_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5138B421BE3AF4AE8F30AC2339291B /* Pods-AJLabelAppearance_Tests-dummy.m */; };
+		99D9D8AB4F1046EBF86E514B73E0A832 /* AJLabelAppearance-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B89D1EB8B35FAB2E2AA6A677526ABB /* AJLabelAppearance-dummy.m */; };
+		C17F247032B9ED8B14CCD9FE33393A9A /* AJLabelAppearance-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E113FE55626C1CF07E314E057D1D98BE /* AJLabelAppearance-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3F605141113ABA38079C51DF1E97B74 /* AJLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7979A65FE753F7653A967DCE54E5161D /* AJLabel.m */; };
+		CFF86FD6582EDE60FDD96C43FD178C19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D2C080EB70018FCE680902F033F23AC1 /* Pods-AJLabelAppearance_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE2A4B79964223F81FF6100299B1D84 /* Pods-AJLabelAppearance_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCF8BCF965C9A98059032108CA4E47DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EDC7A07A294AA9E7AE30D079093ED0F6 /* AJLabelAppearance.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E5123B3556A07C998C8FF81020163C18 /* AJLabelAppearance.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		253E56BB7B86273F631474EEB5763C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BFB35F447B10A99DB7F9EFAB6F6ED4D;
+			remoteInfo = AJLabelAppearance;
+		};
+		694851BA7A05E85E43203698A60E603F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BFB35F447B10A99DB7F9EFAB6F6ED4D;
+			remoteInfo = AJLabelAppearance;
+		};
+		CB45D93701E8C3F50C5DB2304A04EA0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51927C95DEBC03154E01DC12DF3B68DB;
+			remoteInfo = "AJLabelAppearance-AJLabelAppearance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0281976112FDCB6195CA67AE81E51CDB /* Pods-AJLabelAppearance_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJLabelAppearance_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		08882CDFAD9E139757DDAE0F93CBDD0D /* Pods_AJLabelAppearance_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AJLabelAppearance_Example.framework; path = "Pods-AJLabelAppearance_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		229F314710E460133C9E92D4AE63D9D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DD469F5299113D84E654EDACA685B8 /* ResourceBundle-AJLabelAppearance-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AJLabelAppearance-Info.plist"; sourceTree = "<group>"; };
+		2676D6780509E9A131694E991DA1B2FA /* Pods-AJLabelAppearance_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJLabelAppearance_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F5138B421BE3AF4AE8F30AC2339291B /* Pods-AJLabelAppearance_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJLabelAppearance_Tests-dummy.m"; sourceTree = "<group>"; };
+		310BFE278386695162402BC926E9FE14 /* Pods-AJLabelAppearance_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJLabelAppearance_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		37780029445C12673E3A4328B56C5075 /* Pods-AJLabelAppearance_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AJLabelAppearance_Tests.modulemap"; sourceTree = "<group>"; };
+		47C52A7545D521BCD9FC71196AF24E73 /* AJLabelAppearance.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJLabelAppearance.xcconfig; sourceTree = "<group>"; };
+		4FCC730EAE782069D12D5C9069C2589C /* Pods-AJLabelAppearance_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AJLabelAppearance_Example.modulemap"; sourceTree = "<group>"; };
+		56A4193D050A2C8E7DD38FB1E28BF20A /* Pods-AJLabelAppearance_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJLabelAppearance_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5ACBF9AB57044C77DF7213DE44738F6D /* Pods-AJLabelAppearance_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJLabelAppearance_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5ECFE42DC1EF6208DDE29678F275176D /* Pods-AJLabelAppearance_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJLabelAppearance_Example-dummy.m"; sourceTree = "<group>"; };
+		69F8A85A450877431A7A70C20E76B41B /* Pods-AJLabelAppearance_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJLabelAppearance_Tests-resources.sh"; sourceTree = "<group>"; };
+		7329E07AB4ED2247AABE573ADF40135C /* AJLabelAppearance.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AJLabelAppearance.modulemap; sourceTree = "<group>"; };
+		7979A65FE753F7653A967DCE54E5161D /* AJLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AJLabel.m; sourceTree = "<group>"; };
+		7F681EDADF1176A748493A425760AFCA /* Pods-AJLabelAppearance_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJLabelAppearance_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93B89D1EB8B35FAB2E2AA6A677526ABB /* AJLabelAppearance-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJLabelAppearance-dummy.m"; sourceTree = "<group>"; };
+		A1D1F948EE2F447A127CB1E95B837780 /* Pods-AJLabelAppearance_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJLabelAppearance_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A64B33F7AACA0EB459ACEA867A282883 /* Pods-AJLabelAppearance_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJLabelAppearance_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A9BD65FAC66083850D53481B9C1B1CF4 /* AJLabelAppearance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AJLabelAppearance.framework; path = AJLabelAppearance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB62094BB7EED25453A16E658E38A055 /* Pods-AJLabelAppearance_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJLabelAppearance_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B40176280E096B616CCA014434B17F07 /* Pods-AJLabelAppearance_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJLabelAppearance_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B825FCB89DACC3ACBF330F5A50BF1AE1 /* Pods-AJLabelAppearance_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJLabelAppearance_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BACC788DADA70D95975653068D3FF98C /* AJLabelAppearance-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJLabelAppearance-prefix.pch"; sourceTree = "<group>"; };
+		C56E5086CFE0C8B891560F024B6CADC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6C7162D095ED7305906E8926C875AAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71F988BEB75EF0CE6D005440C5265CD /* AJLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AJLabel.h; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CDEAF331FEA4ACD40E51BED8764CE788 /* Pods-AJLabelAppearance_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJLabelAppearance_Example-resources.sh"; sourceTree = "<group>"; };
+		E113FE55626C1CF07E314E057D1D98BE /* AJLabelAppearance-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJLabelAppearance-umbrella.h"; sourceTree = "<group>"; };
+		E5123B3556A07C998C8FF81020163C18 /* AJLabelAppearance.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AJLabelAppearance.bundle; path = AJLabelAppearance.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE2A4B79964223F81FF6100299B1D84 /* Pods-AJLabelAppearance_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJLabelAppearance_Example-umbrella.h"; sourceTree = "<group>"; };
+		F2B1DC8B2CD5B6AFBEC6A57CE9D04655 /* Pods_AJLabelAppearance_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AJLabelAppearance_Tests.framework; path = "Pods-AJLabelAppearance_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		245E5DCF6675F2D34DE1AE0343055424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEBDF3A4351F62697D9928180DDB7C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7E736F1D8F5CE34D1C7DF12D22219E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF86FD6582EDE60FDD96C43FD178C19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCAF09BF18C57E3BB36A5C460DC577D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF8BCF965C9A98059032108CA4E47DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ED99E032AF8C3FE35DF1FCE315F6BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3279F665A144D937EF1CB0C9967A9FD1 /* Pods-AJLabelAppearance_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C56E5086CFE0C8B891560F024B6CADC4 /* Info.plist */,
+				4FCC730EAE782069D12D5C9069C2589C /* Pods-AJLabelAppearance_Example.modulemap */,
+				B40176280E096B616CCA014434B17F07 /* Pods-AJLabelAppearance_Example-acknowledgements.markdown */,
+				56A4193D050A2C8E7DD38FB1E28BF20A /* Pods-AJLabelAppearance_Example-acknowledgements.plist */,
+				5ECFE42DC1EF6208DDE29678F275176D /* Pods-AJLabelAppearance_Example-dummy.m */,
+				5ACBF9AB57044C77DF7213DE44738F6D /* Pods-AJLabelAppearance_Example-frameworks.sh */,
+				CDEAF331FEA4ACD40E51BED8764CE788 /* Pods-AJLabelAppearance_Example-resources.sh */,
+				EFE2A4B79964223F81FF6100299B1D84 /* Pods-AJLabelAppearance_Example-umbrella.h */,
+				0281976112FDCB6195CA67AE81E51CDB /* Pods-AJLabelAppearance_Example.debug.xcconfig */,
+				A64B33F7AACA0EB459ACEA867A282883 /* Pods-AJLabelAppearance_Example.release.xcconfig */,
+			);
+			name = "Pods-AJLabelAppearance_Example";
+			path = "Target Support Files/Pods-AJLabelAppearance_Example";
+			sourceTree = "<group>";
+		};
+		471071159DC57C276E3A83A39805ACED /* AJLabelAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				4E11C2C1170BF18DDDFBC36CA17C7002 /* Classes */,
+			);
+			name = AJLabelAppearance;
+			path = AJLabelAppearance;
+			sourceTree = "<group>";
+		};
+		4E11C2C1170BF18DDDFBC36CA17C7002 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C71F988BEB75EF0CE6D005440C5265CD /* AJLabel.h */,
+				7979A65FE753F7653A967DCE54E5161D /* AJLabel.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		58B3131B592B59F556C111B767CAA702 /* Pods-AJLabelAppearance_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C6C7162D095ED7305906E8926C875AAB /* Info.plist */,
+				37780029445C12673E3A4328B56C5075 /* Pods-AJLabelAppearance_Tests.modulemap */,
+				2676D6780509E9A131694E991DA1B2FA /* Pods-AJLabelAppearance_Tests-acknowledgements.markdown */,
+				AB62094BB7EED25453A16E658E38A055 /* Pods-AJLabelAppearance_Tests-acknowledgements.plist */,
+				2F5138B421BE3AF4AE8F30AC2339291B /* Pods-AJLabelAppearance_Tests-dummy.m */,
+				B825FCB89DACC3ACBF330F5A50BF1AE1 /* Pods-AJLabelAppearance_Tests-frameworks.sh */,
+				69F8A85A450877431A7A70C20E76B41B /* Pods-AJLabelAppearance_Tests-resources.sh */,
+				7F681EDADF1176A748493A425760AFCA /* Pods-AJLabelAppearance_Tests-umbrella.h */,
+				310BFE278386695162402BC926E9FE14 /* Pods-AJLabelAppearance_Tests.debug.xcconfig */,
+				A1D1F948EE2F447A127CB1E95B837780 /* Pods-AJLabelAppearance_Tests.release.xcconfig */,
+			);
+			name = "Pods-AJLabelAppearance_Tests";
+			path = "Target Support Files/Pods-AJLabelAppearance_Tests";
+			sourceTree = "<group>";
+		};
+		5C0EC3C5484CB052073522423CFAB830 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7329E07AB4ED2247AABE573ADF40135C /* AJLabelAppearance.modulemap */,
+				47C52A7545D521BCD9FC71196AF24E73 /* AJLabelAppearance.xcconfig */,
+				93B89D1EB8B35FAB2E2AA6A677526ABB /* AJLabelAppearance-dummy.m */,
+				BACC788DADA70D95975653068D3FF98C /* AJLabelAppearance-prefix.pch */,
+				E113FE55626C1CF07E314E057D1D98BE /* AJLabelAppearance-umbrella.h */,
+				229F314710E460133C9E92D4AE63D9D9 /* Info.plist */,
+				22DD469F5299113D84E654EDACA685B8 /* ResourceBundle-AJLabelAppearance-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AJLabelAppearance";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E856F2CFB1298F542531B021A68F271E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F0D9CB355FAC5159236A8A4CA015CA66 /* Products */,
+				F1D98A297320A903CB22F0AD441F3AC1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D30076F28336BB0FDDCF4C783506E58A /* AJLabelAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				471071159DC57C276E3A83A39805ACED /* AJLabelAppearance */,
+				5C0EC3C5484CB052073522423CFAB830 /* Support Files */,
+			);
+			name = AJLabelAppearance;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E856F2CFB1298F542531B021A68F271E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D30076F28336BB0FDDCF4C783506E58A /* AJLabelAppearance */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F0D9CB355FAC5159236A8A4CA015CA66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5123B3556A07C998C8FF81020163C18 /* AJLabelAppearance.bundle */,
+				A9BD65FAC66083850D53481B9C1B1CF4 /* AJLabelAppearance.framework */,
+				08882CDFAD9E139757DDAE0F93CBDD0D /* Pods_AJLabelAppearance_Example.framework */,
+				F2B1DC8B2CD5B6AFBEC6A57CE9D04655 /* Pods_AJLabelAppearance_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1D98A297320A903CB22F0AD441F3AC1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3279F665A144D937EF1CB0C9967A9FD1 /* Pods-AJLabelAppearance_Example */,
+				58B3131B592B59F556C111B767CAA702 /* Pods-AJLabelAppearance_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14FC4C0C1CB0531069B91139880178AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386AA764552D012DDB9CFEA9E0AEAF05 /* Pods-AJLabelAppearance_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BB4F8FA1C6511A75DC48858D204B69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513E0516980566577B8B6FD536A72095 /* AJLabel.h in Headers */,
+				C17F247032B9ED8B14CCD9FE33393A9A /* AJLabelAppearance-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF48E6C94543E85E3D362E0D54CEC4EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C080EB70018FCE680902F033F23AC1 /* Pods-AJLabelAppearance_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		195BE2D3D3094266F2878C5E72CE1817 /* Pods-AJLabelAppearance_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C50E0E5F32841C70AD33CAF9C6686C /* Build configuration list for PBXNativeTarget "Pods-AJLabelAppearance_Tests" */;
+			buildPhases = (
+				9F8E24424981A91DE4FD21B21FF2662E /* Sources */,
+				2C7E736F1D8F5CE34D1C7DF12D22219E /* Frameworks */,
+				14FC4C0C1CB0531069B91139880178AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CF4CA61D7903EDAFDD0B0F35F30CCDB /* PBXTargetDependency */,
+			);
+			name = "Pods-AJLabelAppearance_Tests";
+			productName = "Pods-AJLabelAppearance_Tests";
+			productReference = F2B1DC8B2CD5B6AFBEC6A57CE9D04655 /* Pods_AJLabelAppearance_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3BFB35F447B10A99DB7F9EFAB6F6ED4D /* AJLabelAppearance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CD665F7A86FE6D1CC11D8B72AA7CD8B /* Build configuration list for PBXNativeTarget "AJLabelAppearance" */;
+			buildPhases = (
+				44DC4C425BD28A5A6971460D32CA69EF /* Sources */,
+				7BCAF09BF18C57E3BB36A5C460DC577D /* Frameworks */,
+				9AEFD9FCC947FEB9E2E44E67188A95F5 /* Resources */,
+				66BB4F8FA1C6511A75DC48858D204B69 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2F5D9EB6694A9BDBFC4B93C832D2C80 /* PBXTargetDependency */,
+			);
+			name = AJLabelAppearance;
+			productName = AJLabelAppearance;
+			productReference = A9BD65FAC66083850D53481B9C1B1CF4 /* AJLabelAppearance.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51927C95DEBC03154E01DC12DF3B68DB /* AJLabelAppearance-AJLabelAppearance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E314FE45F9ED8C5DD270247F3E55C4D /* Build configuration list for PBXNativeTarget "AJLabelAppearance-AJLabelAppearance" */;
+			buildPhases = (
+				E55E9720B1C8A34A2AF3EA459F481B0B /* Sources */,
+				7ED99E032AF8C3FE35DF1FCE315F6BD5 /* Frameworks */,
+				22AEC2BAAE11120AEB0CD79160E49B06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AJLabelAppearance-AJLabelAppearance";
+			productName = "AJLabelAppearance-AJLabelAppearance";
+			productReference = E5123B3556A07C998C8FF81020163C18 /* AJLabelAppearance.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6C7F6ACE795587C357587656A26A2934 /* Pods-AJLabelAppearance_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7CA73D46FC445CB1521364732288E0C /* Build configuration list for PBXNativeTarget "Pods-AJLabelAppearance_Example" */;
+			buildPhases = (
+				8143CB12CBC95EE8447C13E7EC9AF47F /* Sources */,
+				245E5DCF6675F2D34DE1AE0343055424 /* Frameworks */,
+				AF48E6C94543E85E3D362E0D54CEC4EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43D614FACD2AD66BD9BC72100262E681 /* PBXTargetDependency */,
+			);
+			name = "Pods-AJLabelAppearance_Example";
+			productName = "Pods-AJLabelAppearance_Example";
+			productReference = 08882CDFAD9E139757DDAE0F93CBDD0D /* Pods_AJLabelAppearance_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F0D9CB355FAC5159236A8A4CA015CA66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BFB35F447B10A99DB7F9EFAB6F6ED4D /* AJLabelAppearance */,
+				51927C95DEBC03154E01DC12DF3B68DB /* AJLabelAppearance-AJLabelAppearance */,
+				6C7F6ACE795587C357587656A26A2934 /* Pods-AJLabelAppearance_Example */,
+				195BE2D3D3094266F2878C5E72CE1817 /* Pods-AJLabelAppearance_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22AEC2BAAE11120AEB0CD79160E49B06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEFD9FCC947FEB9E2E44E67188A95F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC7A07A294AA9E7AE30D079093ED0F6 /* AJLabelAppearance.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44DC4C425BD28A5A6971460D32CA69EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F605141113ABA38079C51DF1E97B74 /* AJLabel.m in Sources */,
+				99D9D8AB4F1046EBF86E514B73E0A832 /* AJLabelAppearance-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8143CB12CBC95EE8447C13E7EC9AF47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C78E27AD476F5DB4FC48C7054F057A /* Pods-AJLabelAppearance_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8E24424981A91DE4FD21B21FF2662E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F213A377F98257E3392C37706A47ED6 /* Pods-AJLabelAppearance_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E55E9720B1C8A34A2AF3EA459F481B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43D614FACD2AD66BD9BC72100262E681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AJLabelAppearance;
+			target = 3BFB35F447B10A99DB7F9EFAB6F6ED4D /* AJLabelAppearance */;
+			targetProxy = 694851BA7A05E85E43203698A60E603F /* PBXContainerItemProxy */;
+		};
+		6CF4CA61D7903EDAFDD0B0F35F30CCDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AJLabelAppearance;
+			target = 3BFB35F447B10A99DB7F9EFAB6F6ED4D /* AJLabelAppearance */;
+			targetProxy = 253E56BB7B86273F631474EEB5763C27 /* PBXContainerItemProxy */;
+		};
+		F2F5D9EB6694A9BDBFC4B93C832D2C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AJLabelAppearance-AJLabelAppearance";
+			target = 51927C95DEBC03154E01DC12DF3B68DB /* AJLabelAppearance-AJLabelAppearance */;
+			targetProxy = CB45D93701E8C3F50C5DB2304A04EA0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E3B72228F70761DB3FA2B92C5853D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C52A7545D521BCD9FC71196AF24E73 /* AJLabelAppearance.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AJLabelAppearance/AJLabelAppearance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AJLabelAppearance/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AJLabelAppearance/AJLabelAppearance.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AJLabelAppearance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		172A5B56C510D19E8FED031FD42D90E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0281976112FDCB6195CA67AE81E51CDB /* Pods-AJLabelAppearance_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AJLabelAppearance_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AJLabelAppearance_Example/Pods-AJLabelAppearance_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AJLabelAppearance_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49E32CCC752084755C13FADD68D52A12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64B33F7AACA0EB459ACEA867A282883 /* Pods-AJLabelAppearance_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AJLabelAppearance_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AJLabelAppearance_Example/Pods-AJLabelAppearance_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AJLabelAppearance_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76E935FADFE50B8F3D9EB30890C4502F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C52A7545D521BCD9FC71196AF24E73 /* AJLabelAppearance.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AJLabelAppearance/AJLabelAppearance-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AJLabelAppearance/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AJLabelAppearance/AJLabelAppearance.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AJLabelAppearance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A024286869DCA89EB19786FC6708F07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C52A7545D521BCD9FC71196AF24E73 /* AJLabelAppearance.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AJLabelAppearance";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/AJLabelAppearance/ResourceBundle-AJLabelAppearance-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AJLabelAppearance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BBC89C883C0E11AB1E103B46A68E870F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D1F948EE2F447A127CB1E95B837780 /* Pods-AJLabelAppearance_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AJLabelAppearance_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AJLabelAppearance_Tests/Pods-AJLabelAppearance_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AJLabelAppearance_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E21FCD4F45148A15A5284A709E7F2044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C52A7545D521BCD9FC71196AF24E73 /* AJLabelAppearance.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AJLabelAppearance";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/AJLabelAppearance/ResourceBundle-AJLabelAppearance-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = AJLabelAppearance;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F6FC1AECB4D6DF48A47F1B05A4E44614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310BFE278386695162402BC926E9FE14 /* Pods-AJLabelAppearance_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AJLabelAppearance_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AJLabelAppearance_Tests/Pods-AJLabelAppearance_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AJLabelAppearance_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C50E0E5F32841C70AD33CAF9C6686C /* Build configuration list for PBXNativeTarget "Pods-AJLabelAppearance_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6FC1AECB4D6DF48A47F1B05A4E44614 /* Debug */,
+				BBC89C883C0E11AB1E103B46A68E870F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CD665F7A86FE6D1CC11D8B72AA7CD8B /* Build configuration list for PBXNativeTarget "AJLabelAppearance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E3B72228F70761DB3FA2B92C5853D26 /* Debug */,
+				76E935FADFE50B8F3D9EB30890C4502F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E314FE45F9ED8C5DD270247F3E55C4D /* Build configuration list for PBXNativeTarget "AJLabelAppearance-AJLabelAppearance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A024286869DCA89EB19786FC6708F07D /* Debug */,
+				E21FCD4F45148A15A5284A709E7F2044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7CA73D46FC445CB1521364732288E0C /* Build configuration list for PBXNativeTarget "Pods-AJLabelAppearance_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				172A5B56C510D19E8FED031FD42D90E6 /* Debug */,
+				49E32CCC752084755C13FADD68D52A12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

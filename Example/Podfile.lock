@@ -1,0 +1,16 @@
+PODS:
+  - AJLabelAppearance (0.1.0)
+
+DEPENDENCIES:
+  - AJLabelAppearance (from `../`)
+
+EXTERNAL SOURCES:
+  AJLabelAppearance:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AJLabelAppearance: 332363e3a4efd2174cb298ef79013301df72b678
+
+PODFILE CHECKSUM: 65145f51b0bcdb02176a28c0817eaec17f30a7e6
+
+COCOAPODS: 1.1.1
