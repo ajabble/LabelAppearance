@@ -101,6 +101,14 @@ It will be used for push specs to cocoapod repo.
 
 `pod trunk push {YOUR_.podspec} --verbose`
 
-Now anywhere you can use it in Pod file.
+Now Pod is published and you can use it in your project.
+
+### How to use this Pod
+
+Step 1: `pod init`
+
+Step 2: e.g. `pod AJLabelAppearance` under your project target in Podfile.
+
+Step 3: `pod install`
 
 Cheers!!
