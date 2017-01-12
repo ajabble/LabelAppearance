@@ -107,7 +107,7 @@ Now Pod is published and you can use it in your project.
 
 Step 1: `pod init`
 
-Step 2: e.g. `pod AJLabelAppearance` under your project target in Podfile.
+Step 2: Add pod to Podfile e.g. `pod AJLabelAppearance` under your project target in Podfile.
 
 Step 3: `pod install`
 
